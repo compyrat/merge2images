@@ -1,6 +1,6 @@
 {
   "name": "merge2images",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Npm module for merge two images and save it",
   "main": "index.js",
   "directories": {
