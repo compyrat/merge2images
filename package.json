@@ -1,6 +1,6 @@
 {
   "name": "merge2images",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Npm module for merge two images and save it",
   "main": "index.js",
   "directories": {
@@ -13,5 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "images": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compyrat/merge2images.git"
+  },
+  "keywords": [
+    "images"
+  ],
+  "bugs": {
+    "url": "https://github.com/compyrat/merge2images/issues"
+  },
+  "homepage": "https://github.com/compyrat/merge2images#readme"
 }
