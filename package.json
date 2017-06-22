@@ -1,0 +1,17 @@
+{
+  "name": "merge2images",
+  "version": "1.0.1",
+  "description": "Npm module for merge two images and save it",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Marlet <compyrat95@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "images": "^3.0.0"
+  }
+}
