@@ -31,3 +31,18 @@ images.mergeWithAll(bigImg, width1, height1, smallImg, width2, height2, outImg, 
 //merge big image with small image, save at out image, manual scaling and set small image at the center of the screen
 images.mergeWithAllCenter(bigImg, width1, height1, smallImg, width2, height2, outImg);
 ```
+
+# Example
+```javascript
+const images = require('merge2images');
+
+const bigImage = '/home/compyrat/server/public/images/bigImage.png';
+const smallImage = '/home/compyrat/server/public/images/smallImage.png';
+const outImage = '/home/compyrat/server/public/images/output/output.png';
+
+exports.index = function(req, res){
+	images.mergeWithAllCenter(bigImage, 500, 300,
+							smallImage, 400, 100,
+							outImage);
+	next();  
+};
